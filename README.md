@@ -16,7 +16,7 @@ High Accuracy: Achieves 98.22% accuracy on test data.
 
 Tamazight Support: Displays output labels in Tamazight (Berber language).
 
-##📂 **Dataset**
+## 📂 **Dataset**
 
 The dataset consists of two categories:
 
@@ -24,7 +24,7 @@ Crying Sounds
 
 Laughing Sounds
 
-##⚙️ **Installation & Setup**
+## ⚙️ **Installation & Setup**
 
 1️⃣ Clone the Repository
 
@@ -47,7 +47,7 @@ python train_model.py
 
 python predict.py --file sample.wav
 
-##📊 **Model Performance**
+## 📊 **Model Performance**
 
 Metric
 
@@ -61,7 +61,7 @@ Test Accuracy
 
 98.22%
 
-##📜 **How It Works**
+## 📜 **How It Works**
 
 Extracts MFCC features from audio files.
 
@@ -71,16 +71,12 @@ Saves the trained model using joblib.
 
 Classifies new audio files as crying or laughing.
 
-##🎯 **Example Usage**
+## 🎯 **Example Usage**
 
 python predict.py --file test_audio.wav
 
 💡 Output: "The sound is classified as Laughing (in Tamazight)"
 
-##📜 **License**
+## 📜 **License**
 
 This project is licensed under the MIT License.
-
-##⭐ **Contributing**
-
-Contributions are welcome! Feel free to submit a PR or open an issue.
