@@ -49,17 +49,11 @@ python predict.py --file sample.wav
 
 ## 📊 **Model Performance**
 
-Metric
+| Metric               | Score  |
+|----------------------|--------|
+| Validation Accuracy | 98.57% |
+| Test Accuracy      | 98.22% |
 
-Score
-
-Validation Accuracy
-
-98.57%
-
-Test Accuracy
-
-98.22%
 
 ## 📜 **How It Works**
 
