@@ -1,10 +1,10 @@
 # *Audio Classification: Crying vs. Laughing*
 
-##📌 **Project Overview**
+## 📌 **Project Overview**
 
 This project focuses on classifying audio files as either crying or laughing using machine learning techniques. The dataset consists of audio clips extracted from various sources, and the model is trained using MFCC features and a Random Forest Classifier.
 
-##🚀 **Features**
+## 🚀 **Features**
 
 Preprocessing: Converts audio files into structured datasets.
 
