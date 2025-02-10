@@ -1,4 +1,4 @@
-Audio Classification: Crying vs. Laughing
+# *Audio Classification: Crying vs. Laughing*
 
 📌 Project Overview
 
