@@ -58,6 +58,20 @@ python predict.py --file sample.wav
 ## 📜 **How It Works**
 
 Extracts MFCC features from audio files.
+Breakdown of the 13 MFCC Features:
+MFCC 1 (Overall spectral energy) – Represents the total energy of the signal.
+MFCC 2 (Spectral tilt) – Captures the general slope of the spectrum, related to vocal effort.
+MFCC 3 (Formant structure) – Helps capture the resonance frequencies (formants) of speech.
+MFCC 4 (Balance between low and high frequencies) – Distinguishes between sharp and flat sounds.
+MFCC 5 (Spectral variations) – Captures detailed changes in the spectral envelope.
+MFCC 6 (Nasality information) – Helps differentiate nasal sounds from non-nasal sounds.
+MFCC 7 (Vowel/consonant distinction) – Aids in distinguishing between vowel and consonant sounds.
+MFCC 8 (Speech articulation details) – Captures subtle changes in pronunciation.
+MFCC 9 (High-frequency formants) – Helps detect formants at higher frequencies.
+MFCC 10 (Pitch and tone variations) – Related to voice intonation and emotion.
+MFCC 11 (Harmonic-to-noise ratio) – Helps distinguish voiced and unvoiced sounds.
+MFCC 12 (Speaker identity features) – Often used for speaker recognition.
+MFCC 13 (Residual spectral energy) – Captures the fine details of the sound signal.
 
 Trains a Random Forest Classifier.
 
